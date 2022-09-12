@@ -31,9 +31,7 @@ class LoginVC: UIViewController {
         view.backgroundColor = .lightGray
     }
 
-<<<<<<< Updated upstream
 
-=======
     @IBAction func modelPresentationAction(_ sender: Any) {
         
         let signUp = SignUpVC.instantiate()
@@ -44,6 +42,6 @@ class LoginVC: UIViewController {
         self.present(signUp, animated: true, completion: nil)
     }
     
->>>>>>> Stashed changes
+
 }
 
