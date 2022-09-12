@@ -16,6 +16,7 @@
 		7BCCE98C28CFE1F500339481 /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCE98B28CFE1F500339481 /* UIViewController+Storyboard.swift */; };
 		7BCCE98E28CFE2AC00339481 /* UIWindow+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCE98D28CFE2AC00339481 /* UIWindow+Key.swift */; };
 		7BCCE99028CFE6F900339481 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCE98F28CFE6F900339481 /* SignUpVC.swift */; };
+		7BCCE99228CFF65100339481 /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCE99128CFF65100339481 /* ResetPasswordVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		7BCCE98B28CFE1F500339481 /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
 		7BCCE98D28CFE2AC00339481 /* UIWindow+Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Key.swift"; sourceTree = "<group>"; };
 		7BCCE98F28CFE6F900339481 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		7BCCE99128CFF65100339481 /* ResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			children = (
 				7B06D6A928CFDDB400BD0F35 /* LoginVC.swift */,
 				7BCCE98F28CFE6F900339481 /* SignUpVC.swift */,
+				7BCCE99128CFF65100339481 /* ResetPasswordVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				7BCCE98E28CFE2AC00339481 /* UIWindow+Key.swift in Sources */,
 				7B06D6A628CFDDB400BD0F35 /* AppDelegate.swift in Sources */,
 				7B06D6A828CFDDB400BD0F35 /* SceneDelegate.swift in Sources */,
+				7BCCE99228CFF65100339481 /* ResetPasswordVC.swift in Sources */,
 				7BCCE99028CFE6F900339481 /* SignUpVC.swift in Sources */,
 				7BCCE98C28CFE1F500339481 /* UIViewController+Storyboard.swift in Sources */,
 			);
