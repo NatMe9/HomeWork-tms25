@@ -39,7 +39,13 @@ class LoginVC: UIViewController {
         signUp.modalPresentationStyle = .fullScreen
         signUp.modalTransitionStyle = .crossDissolve //растворился
         
-        self.present(signUp, animated: true, completion: nil)
+        //у signUp будет navigationbar
+        let navVC = UINavigationController(rootViewController: signUp)
+       
+        //презентуем с navVC
+        self.present(navVC, animated: true, completion: nil)
+        //было
+        //self.present(signUp, animated: true, completion: nil)
     }
     
 

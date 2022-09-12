@@ -12,7 +12,7 @@ class SignUpVC: UIViewController, Storyboarded {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        navigationItem.title = "Registration"
     }
     
     @IBAction func closeSignUpVCAction(_ sender: Any) {
@@ -20,5 +20,10 @@ class SignUpVC: UIViewController, Storyboarded {
     }
     
     
-
+    @IBAction func showResetPasswordAction(_ sender: Any) {
+        let resetPasswordVC = ResetPasswordVC.instantiate()
+        self.navigationController?.pushViewController(resetPasswordVC, animated: true)
+        
+    }
+    
 }

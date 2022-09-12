@@ -53,6 +53,17 @@
                                     <action selector="closeSignUpVCAction:" destination="uYj-6v-neN" eventType="touchUpInside" id="nB1-Zx-A9E"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxI-4J-5af">
+                                <rect key="frame" x="138" y="330" width="140" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.3186078805" green="0.53484059340000001" blue="0.3521353176" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Navigation to Reset Password"/>
+                                <connections>
+                                    <action selector="showResetPasswordAction:" destination="uYj-6v-neN" eventType="touchUpInside" id="0Eg-mr-GEn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="WJq-gD-u35"/>
                         <color key="backgroundColor" red="1" green="0.68744510708211015" blue="0.50886596657580774" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -61,6 +72,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="epv-uY-aqA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="614.49275362318849" y="214.95535714285714"/>
+        </scene>
+        <!--Reset PasswordVC-->
+        <scene sceneID="IVQ-3g-jah">
+            <objects>
+                <viewController storyboardIdentifier="ResetPasswordVC" id="epI-da-FgS" customClass="ResetPasswordVC" customModule="DzNavigation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eTm-z3-SQc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="cVV-lM-Sfm"/>
+                        <color key="backgroundColor" red="1" green="0.44396785365667946" blue="0.47983424132637842" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fuq-lw-Kf7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1317" y="318"/>
         </scene>
     </scenes>
     <resources>
