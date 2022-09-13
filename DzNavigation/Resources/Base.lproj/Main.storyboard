@@ -80,13 +80,26 @@
                     <view key="view" contentMode="scaleToFill" id="eTm-z3-SQc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUL-Xz-J7c">
+                                <rect key="frame" x="109" y="199" width="204" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.52772078879999995" green="0.67624175789999996" blue="0.86078917980000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Pop View Controller"/>
+                                <connections>
+                                    <action selector="closeResetPasswordVCAction:" destination="epI-da-FgS" eventType="touchUpInside" id="XSj-fx-m2h"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="cVV-lM-Sfm"/>
                         <color key="backgroundColor" red="1" green="0.44396785365667946" blue="0.47983424132637842" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fuq-lw-Kf7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1317" y="318"/>
+            <point key="canvasLocation" x="1314.4927536231885" y="317.41071428571428"/>
         </scene>
     </scenes>
     <resources>
