@@ -23,4 +23,11 @@ class ResetPasswordVC: UIViewController, Storyboarded {
         self.navigationController?.popToRootViewController(animated:true) //переход на rootVC - SignUpVC
     }
     
+    @IBAction func finishAutorizationAction(_ sender: Any) {
+       //плавный переход - растворение
+        UIView.transition(with: UIWindow.key, duration: 1.5, options: .transitionCrossDissolve) {
+            
+            UIWindow.key.rootViewController = MainVC.instantiate()
+        }
+    }
 }
