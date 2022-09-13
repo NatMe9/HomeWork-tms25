@@ -15,6 +15,13 @@ class MainVC: UIViewController, Storyboarded {
         
     }
     
-
+    @IBAction func showMainTabBarVCAction(_ sender: Any) {
+        
+        let vc = MainTabBarVC.instantiate()
+        
+        self.present(vc, animated: true, completion: nil)
+        
+    }
+    
    
 }
