@@ -8,7 +8,7 @@
 import UIKit
 
 
-class ResetPasswordVC: UIViewController {
+class ResetPasswordVC: UIViewController, Storyboarded {
 
     override func viewDidLoad() {
         super.viewDidLoad()
